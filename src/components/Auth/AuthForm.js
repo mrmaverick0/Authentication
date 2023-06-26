@@ -59,6 +59,8 @@ const AuthForm = () => {
       .catch((err) => {
         alert(err.message);
       });
+      emailRef.current.value='';
+      passwordRef.current.value='';
   };
 
   

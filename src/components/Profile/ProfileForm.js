@@ -26,6 +26,7 @@ const ProfileForm = () => {
         })
       }
     })
+    passRef.current.value=''
   }
   return (
     <form className={classes.form} onSubmit={submitHandler}>
